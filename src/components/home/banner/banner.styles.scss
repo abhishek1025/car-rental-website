@@ -1,0 +1,39 @@
+.banner-wrapper {
+    .banner-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .banner-text {
+        p {
+            span {
+                color: #FA4226;
+            }
+        }
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: 37% 63%;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:767px) {
+    .banner-wrapper {
+        .banner {
+            grid-template-columns: 1fr;
+        }
+
+        .banner-text {
+            text-align: center;
+        }
+    }
+
+    .banner-img {
+        display: none;
+    }
+}

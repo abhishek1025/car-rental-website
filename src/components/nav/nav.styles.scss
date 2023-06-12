@@ -1,0 +1,73 @@
+nav {
+
+    position: relative;
+    height: 97.5px;
+
+
+    li,
+    a {
+        all: unset
+    }
+
+    a {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+}
+
+.nav-desktop {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav-mob {
+
+    display: block;
+
+    button {
+        all: unset;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .nav-mob-contents {
+        position: fixed;
+        width: 100%;
+        right: 100%;
+        top: 0;
+        height: 100vh;
+        background-color: white;
+        transition: all .5s ease-in-out;
+    }
+
+    .open-nav {
+        right: 0%;
+    }
+}
+
+
+@media (max-width:1280px) {
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mob {
+        display: block;
+    }
+}
+
+
+@media (min-width:1281px) {
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-mob {
+        display: none;
+    }
+}

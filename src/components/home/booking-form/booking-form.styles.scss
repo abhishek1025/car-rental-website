@@ -1,0 +1,42 @@
+.booking-form {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
+
+    form {
+
+        .input-fields {
+
+            width: 32%;
+
+            select,
+            input {
+                padding: 13px 10px;
+                margin-top: 20px;
+                border-radius: 5px;
+                border: 1px solid #a19f9f;
+                color: #818181;
+            }
+
+        }
+
+    }
+}
+
+@media (max-width:1024px) {
+    .booking-form {
+        form {
+            .input-fields {
+                width: 49%;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .booking-form {
+        form {
+            .input-fields {
+                width: 100%;
+            }
+        }
+    }
+}
