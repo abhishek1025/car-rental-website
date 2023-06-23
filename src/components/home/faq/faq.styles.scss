@@ -1,0 +1,35 @@
+.close-faq {
+    height: 0;
+    overflow: hidden;
+}
+
+.open-faq {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.faq-sec {
+    background-image: url("../../../assets/faq-car.png");
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 10rem 0;
+}
+
+@media (max-width:758px) {
+    .open-faq {
+        height: 170px;
+    }
+}
+
+@media (max-width:500px) {
+    .open-faq {
+        height: 250px;
+    }
+}
+
+@media (max-width:350px) {
+    .open-faq {
+        height: 280px;
+    }
+}

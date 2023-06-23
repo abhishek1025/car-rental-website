@@ -31,3 +31,12 @@ body {
 .txt-orange {
     color: #FA4226;
 }
+
+.footer-list-style {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-style li {
+    list-style: none;
+}
